@@ -1,0 +1,14 @@
+*{
+    background-color: aqua;
+}
+.center{
+    height: 500px;
+    width: 1000px;
+    /* background-color: yellow; */
+    border: 2px solid black;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10%;
+    box-shadow: gray 5px 10px 15px;
+}
