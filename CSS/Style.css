@@ -28,7 +28,7 @@
   margin-left: 10%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
   
 }
 .slides_phots{
@@ -36,7 +36,7 @@
 }
 .img1{
   height: 650px;
-  width: 1190px;
+  width: 100%;
   margin-top: 2%;
   visibility:10px ;
   background-image: url(../Images/4433937.jpg);
@@ -52,4 +52,81 @@
   top:250px;
   font-size: 45px;
   margin-left: 50px;
+}
+.book_box{
+  position: absolute;
+  top: 400px;
+  margin-left: 5%;
+  padding: 20px;
+  font-size: 15px;
+  background-color: pink;
+  border-radius: 25%;
+  box-shadow: rgba(255, 0, 0, 0.653) 2px 4px 8px;
+  font-weight: 900;
+}
+.book_box:hover{
+  background-color: greenyellow;
+  box-shadow: rgba(80, 80, 80, 0.788) 2px 4px 8px;
+  z-index: 2;
+}
+/* .img1{
+  height: 650px;
+  width: 100%;
+  margin-top: 2%;
+  visibility:10px ;
+  background-image: url(../Images/4433914.jpg);
+  background-size: cover;
+  mask-image:
+  linear-gradient(to bottom, transparent 0%, black 60%),
+  linear-gradient(to right, transparent 0%, black 60%);
+  mask-composite: intersect;
+  display: block;
+  overflow-wrap: anywhere;
+  } */
+  .patta{
+    position: absolute;
+    top: 750px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    background-color: rgba(71, 3, 55, 0.8);
+    opacity: 0.2px;
+    justify-items: center ;
+    align-items: center;
+    text-align: center;
+}
+.box1{
+padding: 10px;
+color: wheat;
+font-size: 20px;
+position: flex;
+}
+.box1 h1{
+  color: wheat;
+  padding: 0;
+  margin: 0;
+}
+.doct{
+  margin-top:50px ;
+  display: block;
+  height:1000px;
+  width: 100%;
+  border: 1px solid red;
+  /* display: flex; */
+}
+.headd{
+  margin-left:800px ;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+.dimg{
+  margin: 100px;
+  height: 800px;
+  width: 600px;
+  mask-image: -moz-linear-gradient();
+  border-radius: 20px;
+  position: absolute;
 }
