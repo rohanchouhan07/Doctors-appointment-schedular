@@ -123,6 +123,7 @@ position: flex;
   margin-right: 30px;
 }
 .dimg{
+  /* border: 2px solid red; */
   margin: 100px;
   height: 800px;
   width: 600px;
@@ -130,3 +131,67 @@ position: flex;
   border-radius: 20px;
   position: absolute;
 }
+.wmb{
+  display: flex;
+  margin-top:50px ;
+  height:1000px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.one{
+  /* border: 1px solid red; */
+  height: 1000px;
+  width: 50%;
+  background-image:url(../Images/Gemini_Generated_Image_u588p7u588p7u588.png) ;
+  background-size: cover;
+  margin-left: 0px;
+}
+.one2{
+  /* border: 1px solid red; */
+  height: 1000px;
+  background-color: pink;
+  width: 50%;
+  
+}
+.one3{
+  /* border: 1px solid red; */
+  height: 700px;
+  width: 50%;
+  background-color: rgb(77, 3, 3);
+  position: absolute;
+  left: 40%;
+  top: 2100px;
+  box-shadow: gray 10px 20px 40px;
+}
+.one3 h1{
+  color: rgb(255, 255, 158);
+  font-size: 38px;
+  text-align: center;
+  font-style: bold;
+}
+.one3 p{
+  color: rgb(255, 255, 158);
+  padding: 70px;
+}
+.as{
+/* margin-top:50px ; */
+height:1000px;
+width: fit-content;
+border: 2px solid gray;
+padding: 200px;
+padding-top: 200px;
+display: flex;
+flex-direction: row;
+}
+.t_on_as{
+  height: fit-content;
+  width: 70%;
+  font-size: 15px;
+  text-align: justify;
+  border: 2px solid black;
+}
+.imgas{
+  border: 2px solid black;
+  width: 30%;
+  height: 400px;
+  }

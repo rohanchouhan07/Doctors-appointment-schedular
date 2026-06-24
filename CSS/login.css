@@ -24,14 +24,14 @@
 }
 
 /* 4. Define the animation timeline */
-@keyframes fadeSwap {
+/* @keyframes fadeSwap {
   0%, 40% { 
     opacity: 1; /* Top image is fully visible for the first chunk of time */
-  }
+  /* }
   50%, 90% { 
     opacity: 0; /* Top image fades away, revealing the bottom image */
-  }
-  100% { 
-    opacity: 1; /* Fades back to the top image to restart the loop */
-  }
-}
+  /* } */
+ /* / 100% {  */
+    /* opacity: 1; Fades back to the top image to restart the loop */
+  /* } */ 
+/* } */
